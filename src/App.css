@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} 
 
-.App-logo {
+ .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+}  */
+
+#nav_bar {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 10px;
+}
+.Nav-head {
+  color: rgb(255, 23, 97);
+}
+
+.home-btn {
+  border-style: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+.home-btn:hover {
+  background-color: rgb(255, 23, 97);
+  color: white;
+}
+.title-btn {
+  border-style: none;
+  border-radius: 6px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.btn-div {
+  margin-top: 22px;
+}
+.title-btn:hover {
+  background-color: rgb(255, 23, 97);
+  color: white;
+}
+
+p {
+  font-size: 17px;
+}
+.main {
+  margin-left: 150px;
 }
